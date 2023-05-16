@@ -1,0 +1,11 @@
+.products {
+    padding: 120px 20px 50px;
+    /*serve para separar em colunas os produtos*/
+    display: grid;
+    /*serve para deixar as colunas serem ajustadas automaticamente na tela
+    e limita o tamanho minimo em 200px e maximo 1fr que seria 100% da tela*/
+    grid-template-columns: repeat(auto-fill,minmax(200px, 1fr));
+    /*serve para separar as colunas*/
+    gap: 20px;
+
+}
